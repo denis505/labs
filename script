@@ -1,0 +1,45 @@
+#!/bin/bash
+cmp -l 1.txt 2.txt
+cat tem
+head -n 3 1.txt
+cat tem
+tail -n 2 2.txt
+cat tem
+wc 1.txt
+cat tem
+diff -u 1.txt 2.txt
+cat tem
+grep 3 1.txt
+cat tem
+du
+cat tem
+sort -r 1.txt
+cat tem
+od -b 1.txt
+cat tem
+cut -c 1-3 1.txt
+cat tem
+touch 3.txt
+dd if=1.txt of=3.txt
+cat tem
+tar -cpvf 1.tar 1.txt
+cat tem
+tr "1" "5" < 1.txt
+cat tem
+touch sorted1.txt
+touch sorted2.txt
+sort 1.txt > sorted1.txt
+sort 2.txt > sorted2.txt
+comm sorted1.txt sorted2.txt
+cat tem
+sum 2.txt
+cat tem
+md5sum 1.txt
+cat tem
+find *.txt
+cat tem
+split -l 2  1.txt anime.
+cat anime.aa
+cat anime.ab
+cat tem
+vim
